@@ -3,7 +3,10 @@ package fizzBuzz;
 public class FizzBuzz {
 
 	public static String fizzbuzz(int i) {
-		// TODO Auto-generated method stub
+		if(i%3==0)
+		{
+			return"Fizz";
+		}
 		return String.valueOf(i);
 	}
 
